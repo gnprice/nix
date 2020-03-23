@@ -1461,12 +1461,10 @@ export _args; _args='-e /nix/store/9krlzvny65gdc8s7kpb6lkx8cd02c25c-default-buil
   <title>Synopsis</title>
   <cmdsynopsis>
     <command>nix-store</command>
-    <arg choice='plain'>
-      <option>--generate-binary-cache-key</option>
-      <option>key-name</option>
-      <option>secret-key-file</option>
-      <option>public-key-file</option>
-    </arg>
+    <arg choice='plain'><option>--generate-binary-cache-key</option></arg>
+    <arg choice='plain'><replaceable>key-name</replaceable></arg>
+    <arg choice='plain'><replaceable>secret-key-file</replaceable></arg>
+    <arg choice='plain'><replaceable>public-key-file</replaceable></arg>
   </cmdsynopsis>
 </refsection>
 
